@@ -38,3 +38,6 @@ Finally set up virtual box to work, setting up windows on it to test it if it wo
 
 4:18PM
 VirtualBox froze up, checked it in kicad 9 where i have nothing added as i use kicad 8, it works
+
+5:02PM
+Made github repo, added readme, added datasheets for every component. Next will export PCB as step and add it to the project. Waiting for response about how should i integrate this journal to blueprint web one.
