@@ -1,0 +1,40 @@
+30/1/2026 6:04AM
+Cant sleep, so next project: quick one (i hope), which is stm32 usb module. I am searcing for parts, right now i see STM32H7B0RBT6 as good mcu candidate. MCP1726-3302E/SNVAO as max 1A LDO cuz of buck 5v-3.3V 600mA+ cost. TPS73618QDCQRQ1 as 1.8V LDO, max 400mA, cheap.
+
+6:19AM
+Going to try to sleep, gn reader!
+
+7:14AM
+Couldnt sleep so came back, ive chosen few parts in bed as well, ESD diodes will be RCLAMP0502BATCT for CC and D pairs, one per. SMA6L5.0A/TR13 will be for vbus. 10155435-00011LF as port
+
+8:10AM
+Connected everything except pins 17-48 on schematic, will continue later
+
+8:21AM
+10 minute break and we are back again
+
+8:54AM
+Connected everything on schematic! Now pcb, but first i will count up schematic connection + part picking time spent.
+
+Schamtic connection + part picking time spent: 104 minutes
+
+9:13AM
+Quick break for food
+
+9:28AM
+Came back, but will make longer break rn
+
+10:09AM
+Came back for wiring
+
+10:40AM
+Wired some, now break
+
+15:22PM
+Was wiring from when i sent message to channel #blueprint on hackclub's slack, so 11:33AM, but took some toilet breaks, didnt exactly journal, so lets say i was wiring from 12:00PM, now i finished. Exported footprints and symbols also so i can upload it to github. Will try it on VM if it boots with only these libs.
+
+15:50PM
+Finally set up virtual box to work, setting up windows on it to test it if it works without my libs
+
+4:18PM
+VirtualBox froze up, checked it in kicad 9 where i have nothing added as i use kicad 8, it works

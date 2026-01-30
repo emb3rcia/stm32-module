@@ -1,0 +1,369 @@
+(footprint "SOIC127P600X175-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "23K256-I/SN")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "348943ae-8ccb-4ce9-b1e9-11229cb2e8a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MCP1726-3302E_SNVAO"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd5146ec-05fd-4045-a929-7b209721c4c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec8d6e7b-9f11-42a4-bfe9-2ae7fd2887a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1726-Data-Sheet-DS20001936.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d91f71ba-3661-4e27-85e9-fd4ef1dd1815")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LDO Voltage Regulators 1A Low Voltage Low lq LDO"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e187041c-ed9d-4ad0-9863-974a02683143")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.75"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e2e9a4d-7366-4873-aed1-9254f033763f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84baae49-4829-4d3d-a97b-82c45dd901c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MCP1726-3302E/SNVAO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56e41861-40d1-46b2-afb1-42f441066d41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1921bd81-f729-439b-9ecf-2096b9378e76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f607cb8-71bc-4462-8960-0adc09595278")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45ecd524-bf11-49f7-81d8-157c37d5a831")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25d8754e-41cb-4bbb-aacd-335b44a94dca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.45 -2.58)
+		(end -1.95 -2.58)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48e37873-baaf-4159-ac66-970309d8b96d")
+	)
+	(fp_line
+		(start -1.6 -2.45)
+		(end 1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "365bfe5a-1fb0-49bd-afb2-0ceab174bf2a")
+	)
+	(fp_line
+		(start -1.6 2.45)
+		(end -1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "428d749f-5149-4a18-9b4a-b6ce7a422789")
+	)
+	(fp_line
+		(start 1.6 -2.45)
+		(end 1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3d6237e-9998-4187-b3a6-c0f6824a67fc")
+	)
+	(fp_line
+		(start 1.6 2.45)
+		(end -1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b66cb77e-0350-4394-a1c2-e4c9fae6880a")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f8ab431-5bcc-4279-9459-64205403006a")
+	)
+	(fp_line
+		(start -3.7 2.7)
+		(end -3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebf0334e-02b7-472b-8199-4ce1cf42bbe0")
+	)
+	(fp_line
+		(start 3.7 -2.7)
+		(end 3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3b0915b-66cf-4b11-a99c-ecc3018f4829")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07a88b05-5118-4e8f-8a32-27d9596360cf")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be7d1275-a5e8-4e6b-9f00-7ea3cea83195")
+	)
+	(fp_line
+		(start -1.95 -1.18)
+		(end -0.68 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d97d9e0-0916-4ece-aeac-2fa09b1ac5a3")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96e531e2-b292-498c-a324-984df6365936")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5bf7db9-3078-4bb1-aa70-5d5a4a622b03")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "163f2ff3-05c7-4dc3-a5d3-3277f9e3b335")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0c6060e0-6990-4ec0-837d-9f0ae1374725")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 -1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b32f73d-76fb-49d6-8dc1-b4f120a14747")
+	)
+	(pad "2" smd rect
+		(at -2.7 -0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6df5ac9-dfbd-4b53-826b-7a37a120b138")
+	)
+	(pad "3" smd rect
+		(at -2.7 0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "09253fbe-8fd5-45f1-9cb7-53b4a1d7b975")
+	)
+	(pad "4" smd rect
+		(at -2.7 1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47a169a2-2471-4ca8-98ff-8f56dc7a4143")
+	)
+	(pad "5" smd rect
+		(at 2.7 1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ca54df8-bb30-4434-a704-95ef6449a41c")
+	)
+	(pad "6" smd rect
+		(at 2.7 0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "25235552-2622-4a3c-b63d-77f26414493a")
+	)
+	(pad "7" smd rect
+		(at 2.7 -0.635 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71e4d584-5831-4c33-86f5-8973b42629e7")
+	)
+	(pad "8" smd rect
+		(at 2.7 -1.905 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71aadb2d-1b45-49df-88e5-80fd56434fe5")
+	)
+	(model "C:\\Users\\ember\\Documents\\KiCad\\8.0\\cse\\SamacSys_Parts.3dshapes\\MCP1726-3302E_SNVAO.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

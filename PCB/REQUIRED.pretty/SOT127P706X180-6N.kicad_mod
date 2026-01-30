@@ -1,0 +1,357 @@
+(footprint "SOT127P706X180-6N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DCQ (R-PDSO-G6)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "550c7989-f25d-490b-9fed-9419f775105e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS73618QDCQRQ1"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a122ff26-794e-4000-9244-06e20aadcfa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SamacSys_Parts:SOT127P706X180-6N"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70af18a2-cbb8-4a45-8991-97d24d1bd987")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/TPS736-Q1"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "959fa35e-6d2a-4d70-9947-1970e307f67a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Automotive Single Output LDO, 400mA, Cap free, Low Noise, Reverse Current Protection"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "292958d9-efe2-433f-a400-6e393eeddde7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d57c025a-7583-4a7b-b4f3-bb7ac9ae9e70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dbe3abf-0935-44b8-823c-ef758db0c36f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS73618QDCQRQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1515194-7ace-4c43-87cc-fbd3918994e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS73618QDCQRQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5b6f886-db99-432f-bcc5-908eb85b99e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS73618QDCQRQ1?qs=JRStGrVgRuT5Xb8kaOAkOw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dbb2bbe-7d3a-4027-b929-65be74f90b62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "TPS73618QDCQRQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31942390-bc40-4c45-bc65-b50e46525e04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps73618qdcqrq1/texas-instruments?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5fd66d0-b6ee-4c60-850d-63c20036f76a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -3.215)
+		(end -2 -3.215)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ca0d022-f337-41d3-9e01-46459c1023f0")
+	)
+	(fp_line
+		(start -1.65 -3.25)
+		(end 1.65 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b6fbfdc-c1ee-43a5-8fa9-27dd8d4ba68c")
+	)
+	(fp_line
+		(start -1.65 3.25)
+		(end -1.65 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64b29116-e9ed-42df-b3be-f02d6bce141d")
+	)
+	(fp_line
+		(start 1.65 -3.25)
+		(end 1.65 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9534b82-3620-46e8-9898-2eb16d81bb27")
+	)
+	(fp_line
+		(start 1.65 3.25)
+		(end -1.65 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36c290e0-b9f8-4432-a384-c1268a48626f")
+	)
+	(fp_line
+		(start -4.25 -3.525)
+		(end 4.25 -3.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ad4a59e-85d9-4a08-b95b-f4dea8287e3c")
+	)
+	(fp_line
+		(start -4.25 3.525)
+		(end -4.25 -3.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a490e96c-e643-4a9f-b12a-6feace71eb5a")
+	)
+	(fp_line
+		(start 4.25 -3.525)
+		(end 4.25 3.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce4f1dfe-9566-4583-91c3-1a8a1c0b5f77")
+	)
+	(fp_line
+		(start 4.25 3.525)
+		(end -4.25 3.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de65d6c8-32ea-444e-9501-0d3783eed9b5")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbbc67b9-898a-4ea0-bccc-afe8af8c32cf")
+	)
+	(fp_line
+		(start -1.75 -1.98)
+		(end -0.48 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8703d715-d6da-4368-82c5-756630fa6150")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "723cb107-9572-49f5-8095-02a8ec09d076")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae2f2da5-b2dd-451e-a0da-8f9a1f3670b7")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06099ffa-11d8-499d-8c57-78ec7e0eaa93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "e992cbae-72c8-4b9a-9f4c-a5c391f4b6ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 -2.54 90)
+		(size 0.65 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6cc69ce-4746-4af9-bceb-97ea247295ae")
+	)
+	(pad "2" smd rect
+		(at -3 -1.27 90)
+		(size 0.65 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fedaa280-c1b2-4554-8350-fcf5ab15a782")
+	)
+	(pad "3" smd rect
+		(at -3 0 90)
+		(size 0.65 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5b37fb4d-18a3-426e-8593-f368c9fbd678")
+	)
+	(pad "4" smd rect
+		(at -3 1.27 90)
+		(size 0.65 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c13983e8-55c0-4edf-87ab-62b98f596c79")
+	)
+	(pad "5" smd rect
+		(at -3 2.54 90)
+		(size 0.65 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "729c65af-9ed5-4e4b-b4a0-9c12ddb712b9")
+	)
+	(pad "6" smd rect
+		(at 3 0)
+		(size 2 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50e7d9d8-ca93-4c6f-b256-f3a2fd230ec4")
+	)
+	(model "C:\\Users\\ember\\Documents\\KiCad\\8.0\\cse\\SamacSys_Parts.3dshapes\\TPS73618QDCQRQ1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
