@@ -116,7 +116,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -512,7 +512,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "stm32-module.dsn",
-      "step": "",
+      "step": "stm32-module.step",
       "svg": "",
       "vrml": ""
     },
