@@ -39,3 +39,19 @@ Here you can find datasheet for every part and exact part number for it i used:
 > Traces look ugly
 
 It is my second completed project overall. Also they weren't like high speed eg pcie so I just connected them as well as I can! I will try to make them nicer before production, but no promises. EDIT: Tried to make them nicer when rerouting everything, it worked like you can see.
+# BOM
+|Item|Description                  |Needed|Ordered                                      |Why more/less?             |Unit Price ($)|Total Price ($)|URL                                              |
+|----|-----------------------------|------|---------------------------------------------|---------------------------|--------------|---------------|-------------------------------------------------|
+|ST STM32H7B0RBT6|MCU                          |1     |1                                            |-                          |10.08$        |10.08$         |https://www.lcsc.com/product-detail/C730226.html |
+|SEMTECH RCLAMP0502BATCT|CC and DATA lines esd        |2     |5                                            |5 is minimal order amount  |0.24$         |1.21$          |https://www.lcsc.com/product-detail/C117553.html |
+|Littelfuse SMA6L5.0A|VBUS line esd                |1     |1                                            |-                          |0.79$         |0.79$          |https://www.lcsc.com/product-detail/C1974860.html|
+|MICROCHIP MCP1726-3302E/SN|3.3V LDO                     |1     |1                                            |-                          |2.22$         |2.22$          |https://www.lcsc.com/product-detail/C635928.html |
+|TI TPS73618QDCQRQ1|1.8V LDO                     |1     |1                                            |-                          |1.54$         |1.54$          |https://www.lcsc.com/product-detail/C2877946.html|
+|muRata GRM188Z71C475KE21D|4.7uF capacitor              |1     |10                                           |10 is minimal order amount |0.07$         |0.68$          |https://www.lcsc.com/product-detail/C389010.html |
+|Walsin 0603B105J100CT|1uF capacitor                |2     |2                                            |-                          |0.03$         |0.06$          |https://www.lcsc.com/product-detail/C3841036.html|
+|VISHAY VJ0603Y104JXQCW1BC|100nF decap capacitor        |7     |10                                           |sold in increments of 5    |0.08$         |0.81$          |https://www.lcsc.com/product-detail/C3834925.html|
+|SAMWHA CS1608X7R225K100NRB|2.2uF capacitor              |2     |100                                          |100 is minimal order amount|0.0068$       |0.68$          |https://www.lcsc.com/product-detail/C516003.html |
+|BOURNS CR0603-FX-5101ELF|5.1kOhm 0.1w CC resistor     |2     |10                                           |10 is minimal order amount |0.0051$       |0.05$          |https://www.lcsc.com/product-detail/C2076779.html|
+|VISHAY CRCW060310K0DHEAP|10kOhm pull-up/down resistor |2     |5                                            |5 is minimal order amount  |0.12$         |0.58$          |https://www.lcsc.com/product-detail/C3917708.html|
+|SHOU HAN TS6643TP 250gf 009|BOOT and NRST button         |2     |50                                           |50 is minimal order amount |0.0167$       |0.84$          |https://www.lcsc.com/product-detail/C5342967.html|
+|SHOU HAN TYPE-C 16PIN 2MD(073)|USB-C plug                   |1     |20                                           |20 is minimal order amount |0.06$         |1.26$          |https://www.lcsc.com/product-detail/C2765186.html|
