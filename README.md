@@ -1,5 +1,5 @@
 # stm32-module
-Hello! This is my first MCU Module, made for HackClub's Blueprint program. It features 66 goldpins, USB-C (USB-FS standard) port for data AND power, integrated 3.3V and 1.8V LDO and ESD protection on VBUS, DATA channels and CC channels! It uses 4 layer pcb (Front and Back are for power, IN1 and IN2 for GPIO connection). It uses STM32H7 64-LQFP Package MCU on it!
+Hello! This is my first MCU Module, made for HackClub's Blueprint program. It features 66 goldpins, USB-C (USB-FS standard) port for data AND power, integrated 3.3V and 1.8V LDO and ESD protection on VBUS, DATA channels and CC channels! It uses 4 layer pcb (Front and Back are for power, IN1 and IN2 for GPIO connection). It uses STM32H7 64-LQFP Package MCU on it! I made it so I can have some devboard on hand as one-for-all. This is why theres so much power in this thing (384MHz!!!) and this many GPIO ports, and also why this has 1.8V LDO. You use it like any other devboard, **but note that it probably wont fit on breadboard, as it doesnt have the required distance present between connectors**
 # Images
 Schematic v1 (old)
 
