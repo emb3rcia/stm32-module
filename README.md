@@ -34,7 +34,7 @@ Here you can find datasheet for every part and exact part number for it i used:
 - 2.2uF 10V Capacitor: [Samsung Electro-Mechanics CL10B225KP8NNWC](Datasheets/CL10B225KP8NNWC.pdf)
 - 5.1kOhm 0.1W Resistor: [Bourns CR0603-FX-5101ELF](Datasheets/CR0603-FX-5101ELF.pdf)
 - 10Ohm 0.1W Resistor: [Vishay CRCW060310K0DHEAP](Datasheets/CRCW060310K0DHEAP.pdf)
-- BOOT and NRST buttons: [Same Sky TS40-66-43-BK-160-SMT-TR](Datasheets/TS40-66-43-BK-160-SMT-TR.pdf)
+- BOOT and NRST buttons: [SHOU HAN TS6643TP 250gf 009](Datasheets/TS6643TP-250gf-009.pdf)
 # Q&A (no one said that but I want to include that lol)
 > Traces look ugly
 
