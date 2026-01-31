@@ -23,7 +23,7 @@ PCB v2 (new)
 # Datasheets & part list
 Here you can find datasheet for every part and exact part number for it i used:
 - MCU: [STM Electronics STM32H7B0RBT6 LQFP-64 Package](Datasheets/STM32H7B0RBT6.pdf)
-- USB-C Port: [Molex 216990-0003](Datasheets/216990-0003.pdf)
+- USB-C Port: [SHOU HAN TYPE-C 16PIN 2MD(073)](Datasheets/TYPE-C-16PIN-2MD(073).pdf)
 - DATA and CC lines ESD diodes: [Semtech RCLAMP0502BATCT](Datasheets/RCLAMP0502BATCT.pdf)
 - VBUS line ESD diode: [Yageo SMA6L5.0A_TR13](Datasheets/SMA6L5.0A_TR13.pdf)
 - 3.3V LDO: [Microchip MCP1726-3302E_SNVAO](Datasheets/MCP1726-3302E_SNVAO.pdf)
