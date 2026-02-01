@@ -20,6 +20,10 @@ PCB v1 (old, view via kicanvas so low quality screenshot, sorry)
 PCB v2 (new)
 
 ![PCB v2 (new)](Images/pcb_new.png)
+
+3D (new)
+
+![3D (new)](Images/3D.png)
 # Datasheets & part list
 Here you can find datasheet for every part and exact part number for it i used:
 - MCU: [STM Electronics STM32H7B0RBT6 LQFP-64 Package](Datasheets/STM32H7B0RBT6.pdf)

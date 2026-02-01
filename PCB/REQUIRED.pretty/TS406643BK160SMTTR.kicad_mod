@@ -9,7 +9,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "782369c7-22a2-43f0-9f5e-22bd482ec4d7")
+		(uuid "ad8e02cd-50c4-44da-9fbc-9a85fd9cc0a2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "TS40-66-43-BK-160-SMT-TR"
+	(property "Value" "SHOU HAN TS6643TP 250gf 009"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b9dddac3-4266-46e0-bcec-69fa58c3663f")
+		(uuid "713386b1-f68f-4faa-869c-f9abe3b26705")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7676f222-e3a4-4ee1-9797-5e087b6d4f9b")
+		(uuid "88dc68ef-1065-4f61-a657-54101a1a0981")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,11 +41,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts40.pdf"
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C5342967.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "94cda44b-8e2e-4bd7-85b6-baf4ed50e274")
+		(uuid "d9ad222b-63da-443c-90f6-b1cf7810aebc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,11 +53,11 @@
 			)
 		)
 	)
-	(property "Description" "6 x 6 mm, 4.3 mm Actuator Height Off PCB, 160 gf, Black, Surface Mount, SPST, Tactile Switch , 0.05A @ 12VDC , -20C ~ 70C"
+	(property "Description" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5a2d37c3-76e6-4f32-8ad7-9b958cc2e1b5")
+		(uuid "ab554b08-7e2f-4616-af14-1a7edfe7df4c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -70,7 +70,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e4bd17f8-ebb9-451a-bb6b-575c102105b2")
+		(uuid "5df78a7d-f0df-4650-82c6-801f6904b37e")
 		(effects
 			(font
 				(size 1 1)
@@ -78,12 +78,12 @@
 			)
 		)
 	)
-	(property "Manufacturer_Name" "Same Sky"
+	(property "Manufacturer_Name" "SHOU HAN"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "88820c14-1ec9-4a20-97a4-7f1cba6f7e66")
+		(uuid "9ea73c3c-a492-4b21-bd00-23d805b79283")
 		(effects
 			(font
 				(size 1 1)
@@ -91,12 +91,12 @@
 			)
 		)
 	)
-	(property "Manufacturer_Part_Number" "TS40-66-43-BK-160-SMT-TR"
+	(property "Manufacturer_Part_Number" "TS6643TP 250gf 009"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "494d7d37-a933-4c57-8213-7ec01ebe4009")
+		(uuid "73f89250-be9c-4368-a147-e822c9723bda")
 		(effects
 			(font
 				(size 1 1)
@@ -109,7 +109,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f37f6e4-6193-4413-a2d8-b9675d77bb93")
+		(uuid "d9d0dca1-8b92-40d9-be03-ed830f1d2c47")
 		(effects
 			(font
 				(size 1 1)
@@ -122,7 +122,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "841c4250-9231-4621-81f8-cf14810771da")
+		(uuid "f5c60074-40fe-46d1-b1c0-4bde6e696842")
 		(effects
 			(font
 				(size 1 1)
@@ -135,7 +135,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2a7a20b-adcb-40a8-8ff5-f293e6b596d7")
+		(uuid "64859fff-2baf-4a19-b22b-14868638fc15")
 		(effects
 			(font
 				(size 1 1)
@@ -148,7 +148,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "72dadcde-83ee-46d7-bb9d-3119e9d3e6de")
+		(uuid "ca861827-67ba-48c7-8b98-a71eff2173f7")
 		(effects
 			(font
 				(size 1 1)
@@ -165,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "933f438c-9f60-4d60-8962-9ce962c58b79")
+		(uuid "42edfd31-1a8e-4f7d-a336-9b174604300d")
 	)
 	(fp_line
 		(start -5.4 -2.25)
@@ -175,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "75b6b5e7-4879-45c1-88ec-f814b75b83a5")
+		(uuid "f18212c8-7271-440a-b28a-47d88035f54d")
 	)
 	(fp_line
 		(start -3 -1.4)
@@ -185,7 +185,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5b04b0ba-50f5-48f1-9510-ab21dafb3f2d")
+		(uuid "c7055c4c-4241-491a-98af-f4551e940ce5")
 	)
 	(fp_line
 		(start -2.8 -3)
@@ -195,7 +195,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0b40e010-e3dc-41ee-a54f-b732ef03c530")
+		(uuid "17e62864-ecb3-429e-999f-7e3edc8e07a2")
 	)
 	(fp_line
 		(start -2.8 3)
@@ -205,7 +205,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f5dc9ff1-94f1-474c-af86-17616ec0483f")
+		(uuid "983ae6c8-6b07-4f27-b67e-f4e4578f92af")
 	)
 	(fp_line
 		(start 3 -1.4)
@@ -215,7 +215,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c4f0d12e-36d5-4062-9e68-ec819cf109cc")
+		(uuid "95b04c70-fc0c-4c32-8ed8-169564bd0dba")
 	)
 	(fp_arc
 		(start -5.5 -2.25)
@@ -226,7 +226,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cc2e0551-a828-4e98-93d8-ab5a8ca2c665")
+		(uuid "509cb422-8b03-4531-88da-8ced50e5bef6")
 	)
 	(fp_arc
 		(start -5.4 -2.25)
@@ -237,7 +237,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8a225c75-2edc-49e3-bee5-6b9277d91ada")
+		(uuid "28f1dc81-16ad-4d9f-a43d-472ee01df44d")
 	)
 	(fp_line
 		(start -6 -4)
@@ -247,7 +247,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "59a9860a-444e-4c17-b848-a66a7be467e1")
+		(uuid "de39651c-4059-4946-9a63-2e81dbdeb56e")
 	)
 	(fp_line
 		(start -6 4)
@@ -257,7 +257,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "052c7ec7-581e-4ec1-b4ff-765b9379a802")
+		(uuid "3b14eb3a-1b49-4ff6-981d-1073eaed361e")
 	)
 	(fp_line
 		(start 6 -4)
@@ -267,7 +267,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "25fe896c-3e99-4256-8b6c-ad3121d94c06")
+		(uuid "c07124b4-3c80-4f55-95e0-eb1ada105416")
 	)
 	(fp_line
 		(start 6 4)
@@ -277,7 +277,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bece4306-1659-4e9b-bcf7-d6b40f4497d9")
+		(uuid "198fcc97-c520-41bc-acde-3ca756f349e3")
 	)
 	(fp_line
 		(start -3 -3)
@@ -287,7 +287,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b13a863b-99b2-4863-9822-859de24a6b96")
+		(uuid "e84f56e9-9aea-4ef2-b710-f4acb28b5782")
 	)
 	(fp_line
 		(start -3 3)
@@ -297,7 +297,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "335d931d-fda3-4a83-8f0f-8a798f31654a")
+		(uuid "7b4df9cd-64e8-4545-912f-f922507e83e0")
 	)
 	(fp_line
 		(start 3 -3)
@@ -307,7 +307,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2bf263e2-8022-4814-aea5-3e4428629941")
+		(uuid "4786be18-6e84-4ff2-844f-ee75ca742d4d")
 	)
 	(fp_line
 		(start 3 3)
@@ -317,30 +317,30 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ad19ec96-2707-4047-addb-5a65a22f3d77")
+		(uuid "3ce6a1b4-c15e-4e3d-bd0a-fcd52d5b2edc")
 	)
 	(pad "1" smd rect
 		(at -4.1 -2.25 90)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "d1a53c8f-c54c-49cd-b5c6-36e89eebe962")
+		(uuid "387178df-98a4-405a-9cc2-e76347fd00d2")
 	)
 	(pad "2" smd rect
 		(at 4.1 -2.25 90)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "904ed354-4b2b-4d10-bff0-256988528fb4")
+		(uuid "4b83e1ac-da73-4916-8fe1-531db3b59da8")
 	)
 	(pad "3" smd rect
 		(at -4.1 2.25 90)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "8a495dca-556d-47bd-8990-28e2f4725b5a")
+		(uuid "d97cd890-a0c8-4b1f-832f-90f00def92c7")
 	)
 	(pad "4" smd rect
 		(at 4.1 2.25 90)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "86c4e73a-4523-40e5-9168-9d0fdb794553")
+		(uuid "91aafc80-d16f-42da-8088-c93f1500abc4")
 	)
 )
