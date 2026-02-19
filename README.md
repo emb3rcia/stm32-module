@@ -5,6 +5,10 @@ Hello! This is my first MCU devboard, made for HackClub's Blueprint program. It 
 
 I thought it will be good learning project as well as giving me access to prototyping with mcu before commiting to making pcb. And i was right!
 
+## What i learned:
+
+Mainly how to deal with tight connection layout on PCB near MCU
+
 # Images
 Schematic v1 (old)
 
@@ -65,5 +69,6 @@ It is my second completed project overall. Also they weren't like high speed eg 
 |SHOU HAN TS6643TP 250gf 009   |BOOT and NRST button        |2     |50     |50 is minimal order amount |0.0167$       |0.84$           |https://www.lcsc.com/product-detail/C5342967.html|
 |SHOU HAN TYPE-C 16PIN 2MD(073)|USB-C plug                  |1     |20     |20 is minimal order amount |0.06$         |1.26$           |https://www.lcsc.com/product-detail/C2765186.html|
 |PCB                           |PCB                         |1     |5      |5 is minimal order amount  |-             |7$+1.5$ delivery|https://jlcpcb.com/                              |
+
 
 
