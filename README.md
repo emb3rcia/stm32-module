@@ -1,9 +1,9 @@
 # stm32-module
-Hello! This is my first MCU Module, made for HackClub's Blueprint program. It features 66 goldpins, USB-C (USB-FS standard) port for data AND power, integrated 3.3V and 1.8V LDO and ESD protection on VBUS, DATA channels and CC channels! It uses 4 layer pcb (Front and Back are for power, IN1 and IN2 for GPIO connection). It uses STM32H7 64-LQFP Package MCU on it! I made it so I can have some devboard on hand as one-for-all. This is why theres so much power in this thing (384MHz!!!) and this many GPIO ports, and also why this has 1.8V LDO. You use it like any other devboard, **but note that it probably wont fit on breadboard, as it doesnt have the required distance present between connectors**
+Hello! This is my first MCU devboard, made for HackClub's Blueprint program. It features 66 goldpins, USB-C (USB-FS standard) port for data AND power, integrated 3.3V and 1.8V LDO and ESD protection on VBUS, DATA channels and CC channels! It uses 4 layer pcb (Front and Back are for power, IN1 and IN2 for GPIO connection). It uses STM32H7 64-LQFP Package MCU on it! I made it so I can have some devboard on hand as one-for-all. This is why theres so much power in this thing (384MHz!!!) and this many GPIO ports, and also why this has 1.8V LDO. You use it like any other devboard, **but note that it probably wont fit on breadboard, as it doesnt have the required distance present between connectors**
 
 ## Why i made it?
 
-I thought it will be good learning exercise as well as giving me access to prototyping with mcu before commiting to making pcb. And i was right!
+I thought it will be good learning project as well as giving me access to prototyping with mcu before commiting to making pcb. And i was right!
 
 # Images
 Schematic v1 (old)
@@ -65,4 +65,5 @@ It is my second completed project overall. Also they weren't like high speed eg 
 |SHOU HAN TS6643TP 250gf 009   |BOOT and NRST button        |2     |50     |50 is minimal order amount |0.0167$       |0.84$           |https://www.lcsc.com/product-detail/C5342967.html|
 |SHOU HAN TYPE-C 16PIN 2MD(073)|USB-C plug                  |1     |20     |20 is minimal order amount |0.06$         |1.26$           |https://www.lcsc.com/product-detail/C2765186.html|
 |PCB                           |PCB                         |1     |5      |5 is minimal order amount  |-             |7$+1.5$ delivery|https://jlcpcb.com/                              |
+
 
