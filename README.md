@@ -44,8 +44,8 @@ Here you can find datasheet for every part and exact part number for it i used:
 - 4.7uF 16V Capacitor: [Murata Electronics GRM188Z71C475KE21D](Datasheets/GRM188Z71C475KE21D.pdf)
 - 1uF 10V Capacitor: Samsung Electro-Mechanics CL10A105KA8NNNC
 - 100nF 10V Capacitor: [Vishay VJ0603Y104JXQCW1BC](Datasheets/VJ0603Y104JXQCW1BC.pdf)
-- 2.2uF 10V Capacitor: [Samsung Electro-Mechanics CL10B225KP8NNWC](Datasheets/CL10B225KP8NNWC.pdf)
-- 5.1kOhm 0.1W Resistor: [Bourns CR0603-FX-5101ELF](Datasheets/CR0603-FX-5101ELF.pdf)
+- 2.2uF 10V Capacitor: Samsung Electro-Mechanics CL10A225KO8NNNC
+- 5.1kOhm 0.1W Resistor: UNI-ROYAL 0603WAF5101T5E
 - 10Ohm 0.1W Resistor: [Vishay CRCW060310K0DHEAP](Datasheets/CRCW060310K0DHEAP.pdf)
 - BOOT and NRST buttons: [SHOU HAN TS6643TP 250gf 009](Datasheets/TS6643TP-250gf-009.pdf)
 # Q&A (no one said that but I want to include that lol)
@@ -53,23 +53,23 @@ Here you can find datasheet for every part and exact part number for it i used:
 
 It is my second completed project overall. Also they weren't like high speed eg pcie so I just connected them as well as I can! I will try to make them nicer before production, but no promises. EDIT: Tried to make them nicer when rerouting everything, it worked like you can see.
 # BOM
-|Item                                     |Description                 |Needed|Ordered|Why more/less?                   |Unit Price ($)|Total Price ($) |URL                                                                   |
-|-----------------------------------------|----------------------------|------|-------|---------------------------------|--------------|----------------|----------------------------------------------------------------------|
-|ST STM32H7B0RBT6                         |MCU                         |1     |1      |-                                |10.08$        |10.08$          |https://www.lcsc.com/product-detail/C730226.html                      |
-|SEMTECH RCLAMP0502BATCT                  |CC and DATA lines esd       |2     |5      |5 is minimal order amount        |0.24$         |1.21$           |https://www.lcsc.com/product-detail/C117553.html                      |
-|Littelfuse SMA6L5.0A                     |VBUS line esd               |1     |1      |-                                |0.79$         |0.79$           |https://www.lcsc.com/product-detail/C1974860.html                     |
-|MICROCHIP MCP1726-3302E/SN               |3.3V LDO                    |1     |1      |-                                |2.22$         |2.22$           |https://www.lcsc.com/product-detail/C635928.html                      |
-|TI TPS73618QDCQRQ1                       |1.8V LDO                    |1     |1      |-                                |1.54$         |1.54$           |https://www.lcsc.com/product-detail/C2877946.html                     |
-|muRata GRM188Z71C475KE21D                |4.7uF capacitor             |1     |10     |10 is minimal order amount       |0.07$         |0.68$           |https://www.lcsc.com/product-detail/C389010.html                      |
-|Samsung Electro-Mechanics CL10A105KA8NNNC|1uF capacitor               |2     |0      |I have 48 left from other project|-             |-               |https://www.lcsc.com/product-detail/C5673.html                        |
-|VISHAY VJ0603Y104JXQCW1BC                |100nF decap capacitor       |7     |10     |sold in increments of 5          |0.08$         |0.81$           |https://www.lcsc.com/product-detail/C3834925.html                     |
-|SAMWHA CS1608X7R225K100NRB               |2.2uF capacitor             |2     |100    |100 is minimal order amount      |0.0068$       |0.68$           |https://www.lcsc.com/product-detail/C516003.html                      |
-|BOURNS CR0603-FX-5101ELF                 |5.1kOhm 0.1w CC resistor    |2     |10     |10 is minimal order amount       |0.0051$       |0.05$           |https://www.lcsc.com/product-detail/C2076779.html                     |
-|VISHAY CRCW060310K0DHEAP                 |10kOhm pull-up/down resistor|2     |5      |5 is minimal order amount        |0.12$         |0.58$           |https://www.lcsc.com/product-detail/C3917708.html                     |
-|SHOU HAN TS6643TP 250gf 009              |BOOT and NRST button        |2     |50     |50 is minimal order amount       |0.0167$       |0.84$           |https://www.lcsc.com/product-detail/C5342967.html                     |
-|SHOU HAN TYPE-C 16PIN 2MD(073)           |USB-C plug                  |1     |20     |20 is minimal order amount       |0.06$         |1.26$           |https://www.lcsc.com/product-detail/C2765186.html                     |
-|PCB                                      |PCB                         |1     |5      |5 is minimal order amount        |-             |7$+1.5$ delivery|https://jlcpcb.com/                                                   |
-                        |
+|Item                                     |Description                 |Needed|Ordered|Why more/less?                   |Unit Price ($)|Total Price ($) |URL                                              |
+|-----------------------------------------|----------------------------|------|-------|---------------------------------|--------------|----------------|-------------------------------------------------|
+|ST STM32H7B0RBT6                         |MCU                         |1     |1      |-                                |10.08$        |10.08$          |https://www.lcsc.com/product-detail/C730226.html |
+|SEMTECH RCLAMP0502BATCT                  |CC and DATA lines esd       |2     |5      |5 is minimal order amount        |0.24$         |1.21$           |https://www.lcsc.com/product-detail/C117553.html |
+|Littelfuse SMA6L5.0A                     |VBUS line esd               |1     |1      |-                                |0.79$         |0.79$           |https://www.lcsc.com/product-detail/C1974860.html|
+|MICROCHIP MCP1726-3302E/SN               |3.3V LDO                    |1     |1      |-                                |2.22$         |2.22$           |https://www.lcsc.com/product-detail/C635928.html |
+|TI TPS73618QDCQRQ1                       |1.8V LDO                    |1     |1      |-                                |1.54$         |1.54$           |https://www.lcsc.com/product-detail/C2877946.html|
+|muRata GRM188Z71C475KE21D                |4.7uF capacitor             |1     |10     |10 is minimal order amount       |0.07$         |0.68$           |https://www.lcsc.com/product-detail/C389010.html |
+|Samsung Electro-Mechanics CL10A105KA8NNNC|1uF capacitor               |2     |0      |I have 48 left from other project|-             |-               |https://www.lcsc.com/product-detail/C5673.html   |
+|VISHAY VJ0603Y104JXQCW1BC                |100nF decap capacitor       |7     |10     |sold in increments of 5          |0.08$         |0.81$           |https://www.lcsc.com/product-detail/C3834925.html|
+|Samsung Electro-Mechanics CL10A225KO8NNNC|2.2uF capacitor             |2     |50     |50 is minimal order amount       |0.0062$       |0.31            |https://www.lcsc.com/product-detail/C23630.html  |
+|UNI-ROYAL 0603WAF5101T5E                 |5.1kOhm 0.1w CC resistor    |2     |100    |100 is minimal order amount      |0.0012$       |0.12$           |https://www.lcsc.com/product-detail/C23186.html  |
+|VISHAY CRCW060310K0DHEAP                 |10kOhm pull-up/down resistor|2     |5      |5 is minimal order amount        |0.12$         |0.58$           |https://www.lcsc.com/product-detail/C3917708.html|
+|SHOU HAN TS6643TP 250gf 009              |BOOT and NRST button        |2     |50     |50 is minimal order amount       |0.0167$       |0.84$           |https://www.lcsc.com/product-detail/C5342967.html|
+|SHOU HAN TYPE-C 16PIN 2MD(073)           |USB-C plug                  |1     |20     |20 is minimal order amount       |0.06$         |1.26$           |https://www.lcsc.com/product-detail/C2765186.html|
+|PCB                                      |PCB                         |1     |5      |5 is minimal order amount        |-             |7$+1.5$ delivery|https://jlcpcb.com/                              |
+
 
 
 
