@@ -2,7 +2,7 @@ Item,Description,Needed,Ordered,Why more/less?,Unit Price ($),Total Price ($),UR
 ST STM32H7B0RBT6,MCU,1,1,-,10.08$,10.08$,https://www.lcsc.com/product-detail/C730226.html
 SEMTECH RCLAMP0502BATCT,CC and DATA lines esd,2,5,5 is minimal order amount,0.24$,1.21$,https://www.lcsc.com/product-detail/C117553.html
 Littelfuse SMA6L5.0A,VBUS line esd,1,1,-,0.79$,0.79$,https://www.lcsc.com/product-detail/C1974860.html
-MICROCHIP MCP1726-3302E/SN,3.3V LDO,1,1,-,2.22$,2.22$,https://www.lcsc.com/product-detail/C635928.html
+MICROCHIP MCP1728-3302E/SN,3.3V LDO,1,1,-,1.70$,1.70$,https://www.lcsc.com/product-detail/C41528.html
 TI TPS73618QDCQRQ1,1.8V LDO,1,1,-,1.54$,1.54$,https://www.lcsc.com/product-detail/C2877946.html
 muRata GRM188Z71C475KE21D,4.7uF capacitor,1,10,10 is minimal order amount,0.07$,0.68$,https://www.lcsc.com/product-detail/C389010.html
 Samsung Electro-Mechanics CL10A105KA8NNNC,1uF capacitor,2,0,I have 48 left from other project,-,-,https://www.lcsc.com/product-detail/C5673.html
