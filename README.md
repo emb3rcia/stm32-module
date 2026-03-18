@@ -39,7 +39,7 @@ Here you can find datasheet for every part and exact part number for it i used:
 - USB-C Port: [SHOU HAN TYPE-C 16PIN 2MD(073)](Datasheets/TYPE-C-16PIN-2MD(073).pdf)
 - DATA and CC lines ESD diodes: [Semtech RCLAMP0502BATCT](Datasheets/RCLAMP0502BATCT.pdf)
 - VBUS line ESD diode: [Yageo SMA6L5.0A_TR13](Datasheets/SMA6L5.0A_TR13.pdf)
-- 3.3V LDO: [Microchip MCP1726-3302E_SNVAO](Datasheets/MCP1726-3302E_SNVAO.pdf)
+- 3.3V LDO: Microchip MCP1727-3302E_SNVAO
 - 1.8V LDO: [Texas Instruments TPS73618QDCQRQ1](Datasheets/TPS73618QDCQRQ1.pdf)
 - 4.7uF 16V Capacitor: [Murata Electronics GRM188Z71C475KE21D](Datasheets/GRM188Z71C475KE21D.pdf)
 - 1uF 10V Capacitor: Samsung Electro-Mechanics CL10A105KA8NNNC
@@ -48,7 +48,8 @@ Here you can find datasheet for every part and exact part number for it i used:
 - 5.1kOhm 0.1W Resistor: UNI-ROYAL 0603WAF5101T5E
 - 10Ohm 0.1W Resistor: [Vishay CRCW060310K0DHEAP](Datasheets/CRCW060310K0DHEAP.pdf)
 - BOOT and NRST buttons: [SHOU HAN TS6643TP 250gf 009](Datasheets/TS6643TP-250gf-009.pdf)
-# Q&A (no one said that but I want to include that lol)
+  
+# Q&A (no one said that but I want to include that)
 > Traces look ugly
 
 It is my second completed project overall. Also they weren't like high speed eg pcie so I just connected them as well as I can! I will try to make them nicer before production, but no promises. EDIT: Tried to make them nicer when rerouting everything, it worked like you can see.
@@ -58,7 +59,7 @@ It is my second completed project overall. Also they weren't like high speed eg 
 |ST STM32H7B0RBT6                         |MCU                         |1     |1      |-                                |10.08$        |10.08$          |https://www.lcsc.com/product-detail/C730226.html |
 |SEMTECH RCLAMP0502BATCT                  |CC and DATA lines esd       |2     |5      |5 is minimal order amount        |0.24$         |1.21$           |https://www.lcsc.com/product-detail/C117553.html |
 |Littelfuse SMA6L5.0A                     |VBUS line esd               |1     |1      |-                                |0.79$         |0.79$           |https://www.lcsc.com/product-detail/C1974860.html|
-|MICROCHIP MCP1726-3302E/SN               |3.3V LDO                    |1     |1      |-                                |2.22$         |2.22$           |https://www.lcsc.com/product-detail/C635928.html |
+|MICROCHIP MCP1727-3302E/SN               |3.3V LDO                    |1     |1      |-                                |1.70$         |1.70$           |https://www.lcsc.com/product-detail/C41528.html|
 |TI TPS73618QDCQRQ1                       |1.8V LDO                    |1     |1      |-                                |1.54$         |1.54$           |https://www.lcsc.com/product-detail/C2877946.html|
 |muRata GRM188Z71C475KE21D                |4.7uF capacitor             |1     |10     |10 is minimal order amount       |0.07$         |0.68$           |https://www.lcsc.com/product-detail/C389010.html |
 |Samsung Electro-Mechanics CL10A105KA8NNNC|1uF capacitor               |2     |0      |I have 48 left from other project|-             |-               |https://www.lcsc.com/product-detail/C5673.html   |
