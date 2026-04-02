@@ -1,0 +1,464 @@
+(footprint "2169900003"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "216990-0003-1")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 -0.65 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e31462ee-db4f-42a8-b1ea-57cdd8f6829d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "216990-0003"
+		(at 0 -0.65 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "64ffc791-0e87-43f5-8290-19990cd39464")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SamacSys_Parts:2169900003"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21fc347f-1257-4091-824e-f0ba8e44c05b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/pdm_docs/sd/2169900003_sd.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b450a78-7822-4992-90e8-bcbdb6153520")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Connectors Mid-Mnt SMT CH0.58 16Ckt Type C Rec."
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79970897-691d-4f11-8526-7ff5729eccd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "3.36"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15cfa280-cfe2-41a0-ad71-f8c4e9e34490")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fcace40-4666-4a12-9eb6-1aa9a92ad790")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "216990-0003"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf132324-bdf8-4506-8096-004d91d3584f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "538-216990-0003"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99b05bdd-9339-44b8-9b86-8ce584686eab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/216990-0003?qs=DRkmTr78QASn0GILUGAYCA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd47f58-e354-4969-ac67-8081d716dab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "216990-0003"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fdc89d7-38b4-44e1-95c3-150c5a2fc067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/216990-0003/molex?utm_currency=USD&region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b9643e7-b775-4a2d-bdbe-f4b931233d95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.47 3)
+		(end -4.47 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0aabaf3-57fb-46d3-818f-68307e5c0120")
+	)
+	(fp_line
+		(start -4.47 3.25)
+		(end 4.47 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a3d060a-8e5a-4b6f-bfd1-1522cff00e35")
+	)
+	(fp_line
+		(start -3.2 -5.2)
+		(end -3.2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a29beb1-4437-4ae4-8905-14225db63e4c")
+	)
+	(fp_line
+		(start -3.2 -5.2)
+		(end -3.2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60218841-3341-428b-bbd3-957c84c2c5e6")
+	)
+	(fp_line
+		(start -3.2 -5.1)
+		(end -3.2 -5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38ea6b56-3db5-4c5f-abb4-731bd8e545f3")
+	)
+	(fp_line
+		(start 4.47 3.25)
+		(end 4.47 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc082f2f-93ec-4dfb-a3ef-e6538aec60c5")
+	)
+	(fp_arc
+		(start -3.2 -5.2)
+		(mid -3.15 -5.15)
+		(end -3.2 -5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8004c1e9-8e8f-41f6-b6c6-9c03981f54bf")
+	)
+	(fp_arc
+		(start -3.2 -5.1)
+		(mid -3.25 -5.15)
+		(end -3.2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7345106c-9ee1-49ab-aeef-a4ea94bedf18")
+	)
+	(fp_arc
+		(start -3.2 -5.1)
+		(mid -3.25 -5.15)
+		(end -3.2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4a80d7b-27ff-467c-a7bf-39a131610b40")
+	)
+	(fp_line
+		(start -8.045 -5.55)
+		(end 8.045 -5.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88d86ef4-960b-4d38-9a4f-1eaeebf88e11")
+	)
+	(fp_line
+		(start -8.045 4.25)
+		(end -8.045 -5.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "275ed17d-4bc1-46fb-8be3-c1216fde63d7")
+	)
+	(fp_line
+		(start 8.045 -5.55)
+		(end 8.045 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cd2524d-02ab-4ee5-9946-0becf7e36cd5")
+	)
+	(fp_line
+		(start 8.045 4.25)
+		(end -8.045 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "806c1fd3-c9c0-4ba1-897b-37fa2f2b5269")
+	)
+	(fp_line
+		(start -4.47 -3.25)
+		(end -4.47 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa2ebec3-7801-4bdb-bba1-f3d52a58773e")
+	)
+	(fp_line
+		(start -4.47 3.25)
+		(end 4.47 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a7ea057-f306-4e61-a91e-614140141ccc")
+	)
+	(fp_line
+		(start 4.47 -3.25)
+		(end -4.47 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "278b508a-8bdc-4823-8365-af0b0ee7564e")
+	)
+	(fp_line
+		(start 4.47 3.25)
+		(end 4.47 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6fb2daf1-b00b-44dd-a900-e64d001d5e99")
+	)
+	(pad "A1" smd rect
+		(at -3.2 -4)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "625014de-1c00-4c62-9aa1-4f92f9711048")
+	)
+	(pad "A4" smd rect
+		(at -2.4 -4)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4efc6b89-2718-4980-b8c7-b6bdabe299d0")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b613a1d8-9b94-4d04-8df8-4bafd5ea00ba")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f8c7ddc-025b-4212-a966-d93b6940903f")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e4e1d1bc-87b9-45de-9e79-f11663adb1e2")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4afc693-677c-4ea1-8e83-5278f3228ead")
+	)
+	(pad "A9" smd rect
+		(at 2.4 -4)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "df50773b-837d-4e0d-bc27-f506c2aa666f")
+	)
+	(pad "A12" smd rect
+		(at 3.2 -4)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f9734c66-5e65-444d-80bb-230ed3880cd6")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "92d0c57a-fa2c-4484-898f-978be5501686")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4e122a24-8431-4090-87cb-f417ae60adef")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d21658c-daa5-4498-bc9a-b904000a8dee")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -4)
+		(size 0.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ed90ff03-bebb-49bb-9ccf-e35f662d5cb4")
+	)
+	(pad "MH1" thru_hole circle
+		(at -5.62 -2.85)
+		(size 2.28 2.28)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "5d6968d1-cc43-4f9b-81db-84feaadf8e01")
+	)
+	(pad "MH2" thru_hole circle
+		(at -5.62 1.15)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "a4739087-1b10-4f35-a338-a448fa5496a1")
+	)
+	(pad "MH3" thru_hole circle
+		(at 5.62 1.15)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "c3b65d67-ab39-43bb-9504-83c058d13a0a")
+	)
+	(pad "MH4" thru_hole circle
+		(at 5.62 -2.85)
+		(size 2.28 2.28)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "432f24b4-649d-4651-a7bb-f983e4dc42c8")
+	)
+	(model "C:\\Users\\ember\\Documents\\KiCad\\8.0\\cse\\SamacSys_Parts.3dshapes\\216990-0003.stp"
+		(offset
+			(xyz 0 0.6499999664 1.049999937)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
